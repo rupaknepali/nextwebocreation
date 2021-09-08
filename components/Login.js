@@ -11,7 +11,8 @@ const Login = ({loginmessage}) => {
           <div className='container'>
             <div className='row'>
               <div className='login-form  p-5'>
-                <h3>Enter your Client ID and Secret Key</h3>
+                <h3>
+                <a href="https://webocreation.com/blog/marketo-form-administration-tool-add-or-update-field-for-all-forms-at-once/" target="_blank" rel="noopener noreferrer"><span className="blackcolor"> Enter your Client ID and Secret Key</span> <span>(How to find?)</span></a></h3>
                 <p>*** We call APIs only, we don&apos;t store any data</p>
                 
                 <div className={alert}>{loginmessage}</div>
@@ -72,7 +73,7 @@ const Login = ({loginmessage}) => {
         <style jsx>{`
                 .login-form {
                     text-align: center;
-                    max-width: 700px;
+                    max-width: 750px;
                     margin: auto;
                 }
                 

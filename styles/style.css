@@ -1,4 +1,13 @@
 a {
   text-decoration: none;
 }
+
+footer {
+  background-color: #F4F8FC;
+  margin-top: 90px;
+}
+
+.blackcolor {
+  color: var(--bs-body-color);
+}
 /*# sourceMappingURL=style.css.map */
