@@ -30,7 +30,7 @@ const FormLists = ({urlparameter, accountid, forms, offset, maxReturn, totalform
                     {forms.map((form) => {
                         return (
                             <li className="list-group-item" key={form.id}>
-                                <a target="_blank" href={formurl+form.id}>
+                                <a target="_blank" rel="noreferrer" href={formurl+form.id}>
                                     {form.id} - {form.name}
                                 </a>
                             </li>
